@@ -1,0 +1,16 @@
+{
+    "Device1": {
+        "name": "Temperature Sensor",
+        "data": [
+            {
+                "bytes": [0, 1],
+                "variable": "Temperature",
+                "format": "float",
+                "byte order": "little-endian",
+                "unit": "Celsius",
+                "coefficient": 0.1,
+                "offset": 0
+            }
+        ]
+    }
+}
