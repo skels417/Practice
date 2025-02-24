@@ -1,0 +1,7 @@
+Z:\repos\project4\project4\bin\Debug\project4.exe.config
+Z:\repos\project4\project4\bin\Debug\project4.exe
+Z:\repos\project4\project4\bin\Debug\project4.pdb
+Z:\repos\project4\project4\obj\Debug\project4.csproj.AssemblyReference.cache
+Z:\repos\project4\project4\obj\Debug\project4.csproj.CoreCompileInputs.cache
+Z:\repos\project4\project4\obj\Debug\project4.exe
+Z:\repos\project4\project4\obj\Debug\project4.pdb
