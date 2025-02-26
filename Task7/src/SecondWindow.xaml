@@ -1,9 +1,0 @@
-﻿<Window x:Class="Task7.SecondWindow"
-       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Окно 2" Height="300" Width="400">
-    <Grid>
-        <Label Name="GreetingLabel" FontSize="16" Margin="10"/>
-        <DataGrid Name="HistoryDataGrid" Margin="10,50,10,10" SelectionChanged="HistoryDataGrid_SelectionChanged"/>
-    </Grid>
-</Window>
