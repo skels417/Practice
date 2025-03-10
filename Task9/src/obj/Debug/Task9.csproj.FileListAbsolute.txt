@@ -1,0 +1,17 @@
+Z:\repos\Task9\Task9\obj\Debug\Task9.csproj.AssemblyReference.cache
+Z:\repos\Task9\Task9\obj\Debug\MainWindow.g.cs
+Z:\repos\Task9\Task9\obj\Debug\App.g.cs
+Z:\repos\Task9\Task9\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\repos\Task9\Task9\obj\Debug\Task9_MarkupCompile.cache
+Z:\repos\Task9\Task9\obj\Debug\Task9_MarkupCompile.lref
+Z:\repos\Task9\Task9\obj\Debug\Task9.exe
+Z:\repos\Task9\Task9\obj\Debug\Task9.pdb
+Z:\repos\Task9\Task9\bin\Debug\Task9.exe.config
+Z:\repos\Task9\Task9\bin\Debug\Task9.exe
+Z:\repos\Task9\Task9\bin\Debug\Task9.pdb
+Z:\repos\Task9\Task9\obj\Debug\App.baml
+Z:\repos\Task9\Task9\obj\Debug\MainWindow.baml
+Z:\repos\Task9\Task9\obj\Debug\Task9.g.resources
+Z:\repos\Task9\Task9\obj\Debug\Task9.Properties.Resources.resources
+Z:\repos\Task9\Task9\obj\Debug\Task9.csproj.GenerateResource.cache
+Z:\repos\Task9\Task9\obj\Debug\Task9.csproj.CoreCompileInputs.cache
