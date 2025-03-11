@@ -1,8 +1,0 @@
-﻿<UserControl x:Class="Task10.ImageIndicator"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             x:Name="ImageIndicatorControl">
-    <Grid>
-        <Image x:Name="DisplayedImage" Stretch="Uniform" />
-    </Grid>
-    </UserControl>
