@@ -27,3 +27,5 @@
 [Документация Newtonsoft.Json](https://www.newtonsoft.com/json)
 [Документация по WPF от Microsoft](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/)
 [Примеры использования INotifyPropertyChanged](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/how-to-implement-property-change-notification)
+
+Автор работы: Парасаев Иван
