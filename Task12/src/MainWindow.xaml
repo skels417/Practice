@@ -1,0 +1,16 @@
+﻿<Window x:Class="Task12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Список задач" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBox Text="{Binding NewTaskName, UpdateSourceTrigger=PropertyChanged}" Width="300" />
+            <Button Content="Добавить задачу" Command="{Binding AddTaskCommand}" />
+            <ComboBox ItemsSource="{Binding FilterOptions}" SelectedItem="{Binding Filter}" />
+            <ListBox x:Name="TaskList" ItemsSource="{Binding FilteredTasks}" SelectedItem="{Binding SelectedTask}" />
+            <Button Content="Удалить задачу" Command="{Binding RemoveTaskCommand}" CommandParameter="{Binding SelectedItem, ElementName=TaskList}" />
+            <Button Content="Сохранить задачи" Command="{Binding SaveTasksCommand}" />
+            <Button Content="Загрузить задачи" Command="{Binding LoadTasksCommand}" />
+        </StackPanel>
+    </Grid>
+</Window>
