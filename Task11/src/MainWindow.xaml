@@ -1,0 +1,31 @@
+﻿<Window x:Class="FortuneTellerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Главное окно" Height="350" Width="525">
+
+    <Window.Resources>
+        <Storyboard x:Key="ShakeAnimation">
+            <DoubleAnimation
+            Storyboard.TargetName="GetPredictionButton"
+            Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.X)"
+            From="0" To="10" Duration="0:0:0.1" AutoReverse="True" RepeatBehavior="3x" />
+        </Storyboard>
+    </Window.Resources>
+
+    <Grid>
+        <TextBlock Name="UserSummaryTextBlock" FontSize="16" Margin="10"/>
+        <ComboBox Name="PredictionCategoryComboBox" Margin="10,40,10,10">
+            <ComboBoxItem Content="Любовь" Tag="Love"/>
+            <ComboBoxItem Content="Карьера" Tag="Career"/>
+            <ComboBoxItem Content="Здоровье" Tag="Health"/>
+            <ComboBoxItem Content="Случайное" Tag="Random"/>
+        </ComboBox>
+        <Button Name="GetPredictionButton" Content="Получить предсказание" Click="GetPredictionButton_Click" Width="200" Height="50" Margin="10,100,10,10">
+            <Button.RenderTransform>
+                <TranslateTransform x:Name="ButtonTranslateTransform" />
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="UserManagementButton" Content="Управление пользователями" Click="UserManagementButton_Click" Width="200" Height="50" Margin="10,160,10,10"/>
+        <Button Name="PredictionManagementButton" Content="Управление предсказаниями" Click="PredictionManagementButton_Click" Width="200" Height="50" Margin="10,220,10,10"/>
+    </Grid>
+</Window>
